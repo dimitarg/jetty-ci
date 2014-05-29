@@ -1,0 +1,1634 @@
+Apache Maven 3.0.5
+Maven home: /usr/share/maven
+Java version: 1.7.0_55, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-7-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.13.0-24-generic", arch: "amd64", family: "unix"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/fmap/.m2/settings.xml
+[DEBUG] Using local repository at /home/fmap/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/fmap/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.novarto:coverage_example:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.novarto:coverage_example:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [verify]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building coverage_example 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.novarto:coverage_example:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-unit-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <address>${jacoco.address}</address>
+  <append>${jacoco.append}</append>
+  <classDumpDir>${jacoco.classDumpDir}</classDumpDir>
+  <destFile default-value="${project.build.directory}/jacoco.exec">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec</destFile>
+  <dumpOnExit>${jacoco.dumpOnExit}</dumpOnExit>
+  <exclClassLoaders>${jacoco.exclClassLoaders}</exclClassLoaders>
+  <jmx>${jacoco.jmx}</jmx>
+  <output>${jacoco.output}</output>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <port>${jacoco.port}</port>
+  <project>${project}</project>
+  <propertyName>surefireArgLine</propertyName>
+  <sessionId>${jacoco.sessionId}</sessionId>
+  <skip default-value="false">${jacoco.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.resources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.compileClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.compileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact>${project.artifact}</projectArtifact>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.testResources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.testCompileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${surefireArgLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>
+    <exclude>**/systest/**</exclude>
+  </excludes>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report (post-unit-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <dataFile default-value="${project.build.directory}/jacoco.exec">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec</dataFile>
+  <outputDirectory default-value="${project.reporting.outputDirectory}/jacoco">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/site/jacoco-ut</outputDirectory>
+  <outputEncoding default-value="UTF-8">${project.reporting.outputEncoding}</outputEncoding>
+  <project>${project}</project>
+  <skip default-value="false">${jacoco.skip}</skip>
+  <sourceEncoding default-value="UTF-8">${project.build.sourceEncoding}</sourceEncoding>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <defaultManifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</defaultManifestFile>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-integration-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <address>${jacoco.address}</address>
+  <append>${jacoco.append}</append>
+  <classDumpDir>${jacoco.classDumpDir}</classDumpDir>
+  <destFile default-value="${project.build.directory}/jacoco.exec">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec</destFile>
+  <dumpOnExit>${jacoco.dumpOnExit}</dumpOnExit>
+  <exclClassLoaders>${jacoco.exclClassLoaders}</exclClassLoaders>
+  <jmx>${jacoco.jmx}</jmx>
+  <output>${jacoco.output}</output>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <port>${jacoco.port}</port>
+  <project>${project}</project>
+  <propertyName>failsafeArgLine</propertyName>
+  <sessionId>${jacoco.sessionId}</sessionId>
+  <skip default-value="false">${jacoco.skip}</skip>
+</configuration>
+[DEBUG] --- init fork of com.novarto:coverage_example:0.0.1-SNAPSHOT for org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-unit-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <address>${jacoco.address}</address>
+  <append>${jacoco.append}</append>
+  <classDumpDir>${jacoco.classDumpDir}</classDumpDir>
+  <destFile default-value="${project.build.directory}/jacoco.exec">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec</destFile>
+  <dumpOnExit>${jacoco.dumpOnExit}</dumpOnExit>
+  <exclClassLoaders>${jacoco.exclClassLoaders}</exclClassLoaders>
+  <jmx>${jacoco.jmx}</jmx>
+  <output>${jacoco.output}</output>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <port>${jacoco.port}</port>
+  <project>${project}</project>
+  <propertyName>surefireArgLine</propertyName>
+  <sessionId>${jacoco.sessionId}</sessionId>
+  <skip default-value="false">${jacoco.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.resources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.compileClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.compileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact>${project.artifact}</projectArtifact>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project>${project}</project>
+  <resources>${project.testResources}</resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.testCompileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${maven.compiler.encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] --- exit fork of com.novarto:coverage_example:0.0.1-SNAPSHOT for org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <baseAppFirst default-value="true"/>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <contextPath>${/}</contextPath>
+  <jvmArgs>${surefireArgLine}</jvmArgs>
+  <maxStartupLines default-value="50"/>
+  <persistTempDirectory default-value="false"/>
+  <plugin>${plugin}</plugin>
+  <pluginArtifacts>${plugin.artifacts}</pluginArtifacts>
+  <project>${project}</project>
+  <skip default-value="false">${jetty.skip}</skip>
+  <stopKey>stop</stopKey>
+  <stopPort>8079</stopPort>
+  <target>${project.build.directory}</target>
+  <tempDirectory>${project.build.directory}/tmp</tempDirectory>
+  <testClassesDirectory>${project.build.testOutputDirectory}</testClassesDirectory>
+  <useProvidedScope default-value="false"/>
+  <useTestScope default-value="false"/>
+  <waitForChild default-value="true">false</waitForChild>
+  <webAppSourceDirectory>${basedir}/src/main/webapp</webAppSourceDirectory>
+  <webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-failsafe-plugin:2.17:integration-test (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${failsafeArgLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.failsafe.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <encoding default-value="${project.reporting.outputEncoding}">${encoding}</encoding>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${it.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${failsafe.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>**/systest/**</include>
+  </includes>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${failsafe.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${failsafe.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${failsafe.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${failsafe.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/failsafe-reports"/>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipITs>${skipITs}</skipITs>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <summaryFile default-value="${project.build.directory}/failsafe-reports/failsafe-summary.xml"/>
+  <test>${it.test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${failsafe.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${failsafe.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${failsafe.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report (post-integration-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <dataFile default-value="${project.build.directory}/jacoco.exec">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec</dataFile>
+  <outputDirectory default-value="${project.reporting.outputDirectory}/jacoco">/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/site/jacoco-it</outputDirectory>
+  <outputEncoding default-value="UTF-8">${project.reporting.outputEncoding}</outputEncoding>
+  <project>${project}</project>
+  <skip default-value="false">${jacoco.skip}</skip>
+  <sourceEncoding default-value="UTF-8">${project.build.sourceEncoding}</sourceEncoding>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:stop (stop-jetty)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <stopKey>stop</stopKey>
+  <stopPort>8079</stopPort>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-failsafe-plugin:2.17:verify (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <encoding default-value="${project.reporting.outputEncoding}">${encoding}</encoding>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <reportsDirectory default-value="${project.build.directory}/failsafe-reports"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipITs>${skipITs}</skipITs>
+  <skipTests>${skipTests}</skipTests>
+  <summaryFile default-value="${project.build.directory}/failsafe-reports/failsafe-summary.xml"/>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] com.novarto:coverage_example:jar:0.0.1-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[DEBUG]    org.apache.httpcomponents:httpclient:jar:4.3.1:test
+[DEBUG]       commons-logging:commons-logging:jar:1.1.3:test
+[DEBUG]       commons-codec:commons-codec:jar:1.6:test
+[DEBUG]    org.apache.httpcomponents:httpcore:jar:4.3.1:test
+[DEBUG]    org.apache.httpcomponents:fluent-hc:jar:4.3.1:test
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-unit-test) @ coverage_example ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] org.jacoco:jacoco-maven-plugin:jar:0.7.1.201405082137:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.8.2:compile (version managed from 3.8.1)
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.1.2:compile
+[DEBUG]          xerces:xercesImpl:jar:2.8.1:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]          commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]          org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.jacoco:org.jacoco.agent:jar:runtime:0.7.1.201405082137:compile
+[DEBUG]    org.jacoco:org.jacoco.core:jar:0.7.1.201405082137:compile
+[DEBUG]       org.ow2.asm:asm-debug-all:jar:5.0.1:compile
+[DEBUG]    org.jacoco:org.jacoco.report:jar:0.7.1.201405082137:compile
+[DEBUG] Created new class realm plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137
+[DEBUG] Importing foreign packages into class realm plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137
+[DEBUG]   Included: org.jacoco:jacoco-maven-plugin:jar:0.7.1.201405082137
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:4.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.1.2
+[DEBUG]   Included: xerces:xercesImpl:jar:2.8.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.jacoco:org.jacoco.agent:jar:runtime:0.7.1.201405082137
+[DEBUG]   Included: org.jacoco:org.jacoco.core:jar:0.7.1.201405082137
+[DEBUG]   Included: org.ow2.asm:asm-debug-all:jar:5.0.1
+[DEBUG]   Included: org.jacoco:org.jacoco.report:jar:0.7.1.201405082137
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG] Configuring mojo org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent from plugin realm ClassRealm[plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent' with basic configurator -->
+[DEBUG]   (f) destFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[DEBUG]   (f) pluginArtifactMap = {org.jacoco:jacoco-maven-plugin=org.jacoco:jacoco-maven-plugin:maven-plugin:0.7.1.201405082137:, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, junit:junit=junit:junit:jar:4.8.2:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.6:compile, org.apache.maven.shared:file-management=org.apache.maven.shared:file-management:jar:1.2.1:compile, org.apache.maven.shared:maven-shared-io=org.apache.maven.shared:maven-shared-io:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile, org.apache.maven.doxia:doxia-logging-api=org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-impl=org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile, org.apache.maven.doxia:doxia-core=org.apache.maven.doxia:doxia-core:jar:1.1.2:compile, xerces:xercesImpl=xerces:xercesImpl:jar:2.8.1:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.4:compile, commons-httpclient:commons-httpclient=commons-httpclient:commons-httpclient:jar:3.1:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.2:compile, org.apache.maven.doxia:doxia-site-renderer=org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile, org.apache.maven.doxia:doxia-decoration-model=org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-xhtml=org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-fml=org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile, org.codehaus.plexus:plexus-i18n=org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile, org.codehaus.plexus:plexus-velocity=org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile, org.apache.velocity:velocity=org.apache.velocity:velocity:jar:1.5:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2:compile, commons-validator:commons-validator=commons-validator:commons-validator:jar:1.2.0:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.7.0:compile, commons-digester:commons-digester=commons-digester:commons-digester:jar:1.6:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.0.4:compile, oro:oro=oro:oro:jar:2.0.8:compile, xml-apis:xml-apis=xml-apis:xml-apis:jar:1.0.b2:compile, org.jacoco:org.jacoco.agent=org.jacoco:org.jacoco.agent:jar:runtime:0.7.1.201405082137:compile, org.jacoco:org.jacoco.core=org.jacoco:org.jacoco.core:jar:0.7.1.201405082137:compile, org.ow2.asm:asm-debug-all=org.ow2.asm:asm-debug-all:jar:5.0.1:compile, org.jacoco:org.jacoco.report=org.jacoco:org.jacoco.report:jar:0.7.1.201405082137:compile}
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) propertyName = surefireArgLine
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] surefireArgLine set to -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ coverage_example ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:resources' with basic configurator -->
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/marvin:@/tmp/.ICE-unix/2413,unix/marvin:/tmp/.ICE-unix/2413, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2243, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, env.PWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_55-b14, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.XDG_VTNR=7, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=fmap, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=fmap, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.LC_ADDRESS=bg_BG.UTF-8, jacoco.it.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.LC_MONETARY=bg_BG.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.TEXTDOMAIN=im-config, env.SELINUX_INIT=YES, java.version=1.7.0_55, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aaP6Weutq0, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, env.SSH_AGENT_PID=2315, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=bg_BG.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=51.0, env.GDMSESSION=ubuntu, user.country=US, env.GNOME_KEYRING_PID=2240, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=fmap, os.version=3.13.0-24-generic, path.separator=:, java.vm.version=24.51-b03, env.LANGUAGE=en_US, env.TEXTDOMAINDIR=/usr/share/locale/, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.LC_TELEPHONE=bg_BG.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64, env.SESSIONTYPE=gnome-session, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.DESKTOP_AUTOSTART_ID=10a97fb3bc46f5c481140135147580247500000024130002, env.LC_MEASUREMENT=bg_BG.UTF-8, env.GDM_LANG=en_US, user.home=/home/fmap, env.JOB=dbus, env.OLDPWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, env.GIO_LAUNCHED_DESKTOP_FILE=/home/fmap/.config/autostart/guake.desktop, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, env.SSH_AGENT_LAUNCHER=upstart, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher verify -e -X, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.UBUNTU_MENUPROXY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/fmap, surefireArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-yGnK8d/ssh, jacoco.ut.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/fmap/.Xauthority, env.SESSION=ubuntu, user.dir=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, env.LC_NUMERIC=bg_BG.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/fmap, env.LC_TIME=bg_BG.UTF-8, file.encoding=UTF-8, env.LC_IDENTIFICATION=bg_BG.UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-yGnK8d/gpg:0:1, env.GIO_LAUNCHED_DESKTOP_FILE_PID=2624, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-yGnK8d, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.LC_NAME=bg_BG.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ coverage_example ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.5.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (f) buildDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) classpathElements = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes, /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (f) outputFileName = coverage_example-0.0.1-SNAPSHOT
+[DEBUG]   (f) projectArtifact = com.novarto:coverage_example:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/java]
+[DEBUG] Classpath: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+ /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar]
+[DEBUG] Output directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:testResources' with basic configurator -->
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/marvin:@/tmp/.ICE-unix/2413,unix/marvin:/tmp/.ICE-unix/2413, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2243, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, env.PWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_55-b14, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.XDG_VTNR=7, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=fmap, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=fmap, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.LC_ADDRESS=bg_BG.UTF-8, jacoco.it.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.LC_MONETARY=bg_BG.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.TEXTDOMAIN=im-config, env.SELINUX_INIT=YES, java.version=1.7.0_55, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aaP6Weutq0, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, env.SSH_AGENT_PID=2315, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=bg_BG.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=51.0, env.GDMSESSION=ubuntu, user.country=US, env.GNOME_KEYRING_PID=2240, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=fmap, os.version=3.13.0-24-generic, path.separator=:, java.vm.version=24.51-b03, env.LANGUAGE=en_US, env.TEXTDOMAINDIR=/usr/share/locale/, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.LC_TELEPHONE=bg_BG.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64, env.SESSIONTYPE=gnome-session, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.DESKTOP_AUTOSTART_ID=10a97fb3bc46f5c481140135147580247500000024130002, env.LC_MEASUREMENT=bg_BG.UTF-8, env.GDM_LANG=en_US, user.home=/home/fmap, env.JOB=dbus, env.OLDPWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, env.GIO_LAUNCHED_DESKTOP_FILE=/home/fmap/.config/autostart/guake.desktop, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, env.SSH_AGENT_LAUNCHER=upstart, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher verify -e -X, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.UBUNTU_MENUPROXY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/fmap, surefireArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-yGnK8d/ssh, jacoco.ut.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/fmap/.Xauthority, env.SESSION=ubuntu, user.dir=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, env.LC_NUMERIC=bg_BG.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/fmap, env.LC_TIME=bg_BG.UTF-8, file.encoding=UTF-8, env.LC_IDENTIFICATION=bg_BG.UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-yGnK8d/gpg:0:1, env.GIO_LAUNCHED_DESKTOP_FILE_PID=2624, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-yGnK8d, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.LC_NAME=bg_BG.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (f) buildDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) classpathElements = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes, /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes, /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar, /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar, /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (f) outputFileName = coverage_example-0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java]
+[DEBUG] Classpath: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+ /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar
+ /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+ /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar
+ /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+ /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar]
+[DEBUG] Output directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ coverage_example ---
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.17:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.17:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:test (scope managed from compile)
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.17:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.17
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.17
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.17:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.17:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) argLine = -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[DEBUG]   (s) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) excludes = [**/systest/**]
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =        id: local
+      url: file:///home/fmap/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.17:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.17:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.17:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.17:test'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.17:help'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {junit:junit=junit:junit:jar:4.11:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test, javax.servlet:javax.servlet-api=javax.servlet:javax.servlet-api:jar:3.0.1:provided, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.3.1:test, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.1.3:test, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.6:test, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.3.1:test, org.apache.httpcomponents:fluent-hc=org.apache.httpcomponents:fluent-hc:jar:4.3.1:test}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [       id: central
+      url: http://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire-reports
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (s) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[INFO] Surefire report directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire-reports
+[DEBUG] Setting system property [user.dir]=[/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example]
+[DEBUG] Setting system property [localRepository]=[/home/fmap/.m2/repository]
+[DEBUG] Setting system property [basedir]=[/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example]
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.17:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.17:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar Scope: compile
+[DEBUG] Using JVM: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit4:jar:2.17:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.17:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar Scope: test
+[DEBUG] test classpath:  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes  /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar  /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar  /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar  /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar
+[DEBUG] provider classpath:  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar  javax.servlet-api-3.0.1.jar  httpclient-4.3.1.jar  commons-logging-1.1.3.jar  commons-codec-1.6.jar  httpcore-4.3.1.jar  fluent-hc-4.3.1.jar
+[DEBUG] provider(compact) classpath:  surefire-junit4-2.17.jar  surefire-api-2.17.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+[DEBUG] boot classpath:  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes  /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar  /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar  /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar  /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-2.17.jar  surefire-api-2.17.jar  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar  javax.servlet-api-3.0.1.jar  httpclient-4.3.1.jar  commons-logging-1.1.3.jar  commons-codec-1.6.jar  httpcore-4.3.1.jar  fluent-hc-4.3.1.jar  surefire-junit4-2.17.jar
+Forking command line: /bin/sh -c cd /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example && /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec -jar /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefirebooter394963758616921348.jar /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefire3528504733983602134tmp /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefire_03856658525463771432tmp
+Running com.novarto.coverage_example.HelperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 sec - in com.novarto.coverage_example.HelperTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.1.201405082137:report (post-unit-test) @ coverage_example ---
+[DEBUG] Configuring mojo org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report from plugin realm ClassRealm[plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[DEBUG] Setting property: site.resource.loader.class => 'org.codehaus.plexus.velocity.SiteResourceLoader'.
+[DEBUG] Setting property: velocimacro.messages.on => 'false'.
+[DEBUG] Setting property: resource.loader => 'classpath,site'.
+[DEBUG] Setting property: runtime.log.invalid.references => 'false'.
+[DEBUG] Setting property: resource.manager.logwhenfound => 'false'.
+[DEBUG] Setting property: velocimacro.permissions.allow.inline.to.replace.global => 'true'.
+[DEBUG] *******************************************************************
+[DEBUG] Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+[DEBUG] RuntimeInstance initializing.
+[DEBUG] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+[DEBUG] LogSystem has been deprecated. Please use a LogChute implementation.
+[DEBUG] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.SiteResourceLoader
+[DEBUG] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+[DEBUG] Default ResourceManager initialization complete.
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+[DEBUG] Created '20' parsers.
+[DEBUG] Velocimacro : initialization starting.
+[DEBUG] Velocimacro : allowInline = true : VMs can be defined inline in templates
+[DEBUG] Velocimacro : allowInlineToOverride = true : VMs defined inline may replace previous VM definitions
+[DEBUG] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+[DEBUG] Velocimacro : autoload off : VM system will not automatically reload global library macros
+[DEBUG] Velocimacro : Velocimacro : initialization complete.
+[DEBUG] RuntimeInstance successfully initialized.
+[DEBUG] Configuring mojo 'org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report' with basic configurator -->
+[DEBUG]   (f) dataFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/site/jacoco-ut
+[DEBUG]   (f) outputEncoding = UTF-8
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) sourceEncoding = UTF-8
+[DEBUG] -- end configuration --
+[INFO] Analyzed bundle 'coverage_example' with 2 classes
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ coverage_example ---
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-9:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:1.0-alpha-1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.4.9:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.2
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-9
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:1.0-alpha-1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.4.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.7
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.7
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.2:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.2:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (f) defaultManifestFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes/META-INF/MANIFEST.MF
+[DEBUG]   (f) finalName = coverage_example-0.0.1-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: true
+[DEBUG] Archive /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage_example-0.0.1-SNAPSHOT.jar is uptodate.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-integration-test) @ coverage_example ---
+[DEBUG] Configuring mojo org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent from plugin realm ClassRealm[plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent' with basic configurator -->
+[DEBUG]   (f) destFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec
+[DEBUG]   (f) pluginArtifactMap = {org.jacoco:jacoco-maven-plugin=org.jacoco:jacoco-maven-plugin:maven-plugin:0.7.1.201405082137:, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, junit:junit=junit:junit:jar:4.8.2:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.6:compile, org.apache.maven.shared:file-management=org.apache.maven.shared:file-management:jar:1.2.1:compile, org.apache.maven.shared:maven-shared-io=org.apache.maven.shared:maven-shared-io:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile, org.apache.maven.doxia:doxia-logging-api=org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-impl=org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile, org.apache.maven.doxia:doxia-core=org.apache.maven.doxia:doxia-core:jar:1.1.2:compile, xerces:xercesImpl=xerces:xercesImpl:jar:2.8.1:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.4:compile, commons-httpclient:commons-httpclient=commons-httpclient:commons-httpclient:jar:3.1:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.2:compile, org.apache.maven.doxia:doxia-site-renderer=org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile, org.apache.maven.doxia:doxia-decoration-model=org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-xhtml=org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-fml=org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile, org.codehaus.plexus:plexus-i18n=org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile, org.codehaus.plexus:plexus-velocity=org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile, org.apache.velocity:velocity=org.apache.velocity:velocity:jar:1.5:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2:compile, commons-validator:commons-validator=commons-validator:commons-validator:jar:1.2.0:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.7.0:compile, commons-digester:commons-digester=commons-digester:commons-digester:jar:1.6:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.0.4:compile, oro:oro=oro:oro:jar:2.0.8:compile, xml-apis:xml-apis=xml-apis:xml-apis:jar:1.0.b2:compile, org.jacoco:org.jacoco.agent=org.jacoco:org.jacoco.agent:jar:runtime:0.7.1.201405082137:compile, org.jacoco:org.jacoco.core=org.jacoco:org.jacoco.core:jar:0.7.1.201405082137:compile, org.ow2.asm:asm-debug-all=org.ow2.asm:asm-debug-all:jar:5.0.1:compile, org.jacoco:org.jacoco.report=org.jacoco:org.jacoco.report:jar:0.7.1.201405082137:compile}
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) propertyName = failsafeArgLine
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] failsafeArgLine set to -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec
+[INFO] 
+[INFO] >>> jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty) @ coverage_example >>>
+[DEBUG] com.novarto:coverage_example:jar:0.0.1-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    javax.servlet:javax.servlet-api:jar:3.0.1:provided
+[DEBUG]    org.apache.httpcomponents:httpclient:jar:4.3.1:test
+[DEBUG]       commons-logging:commons-logging:jar:1.1.3:test
+[DEBUG]       commons-codec:commons-codec:jar:1.6:test
+[DEBUG]    org.apache.httpcomponents:httpcore:jar:4.3.1:test
+[DEBUG]    org.apache.httpcomponents:fluent-hc:jar:4.3.1:test
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.1.201405082137:prepare-agent (pre-unit-test) @ coverage_example ---
+[DEBUG] Configuring mojo org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent from plugin realm ClassRealm[plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:prepare-agent' with basic configurator -->
+[DEBUG]   (f) destFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[DEBUG]   (f) pluginArtifactMap = {org.jacoco:jacoco-maven-plugin=org.jacoco:jacoco-maven-plugin:maven-plugin:0.7.1.201405082137:, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, junit:junit=junit:junit:jar:4.8.2:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.6:compile, org.apache.maven.shared:file-management=org.apache.maven.shared:file-management:jar:1.2.1:compile, org.apache.maven.shared:maven-shared-io=org.apache.maven.shared:maven-shared-io:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile, org.apache.maven.doxia:doxia-logging-api=org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile, org.apache.maven.reporting:maven-reporting-impl=org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile, org.apache.maven.doxia:doxia-core=org.apache.maven.doxia:doxia-core:jar:1.1.2:compile, xerces:xercesImpl=xerces:xercesImpl:jar:2.8.1:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.4:compile, commons-httpclient:commons-httpclient=commons-httpclient:commons-httpclient:jar:3.1:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.2:compile, org.apache.maven.doxia:doxia-site-renderer=org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile, org.apache.maven.doxia:doxia-decoration-model=org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-xhtml=org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile, org.apache.maven.doxia:doxia-module-fml=org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile, org.codehaus.plexus:plexus-i18n=org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile, org.codehaus.plexus:plexus-velocity=org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile, org.apache.velocity:velocity=org.apache.velocity:velocity:jar:1.5:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2:compile, commons-validator:commons-validator=commons-validator:commons-validator:jar:1.2.0:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.7.0:compile, commons-digester:commons-digester=commons-digester:commons-digester:jar:1.6:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.0.4:compile, oro:oro=oro:oro:jar:2.0.8:compile, xml-apis:xml-apis=xml-apis:xml-apis:jar:1.0.b2:compile, org.jacoco:org.jacoco.agent=org.jacoco:org.jacoco.agent:jar:runtime:0.7.1.201405082137:compile, org.jacoco:org.jacoco.core=org.jacoco:org.jacoco.core:jar:0.7.1.201405082137:compile, org.ow2.asm:asm-debug-all=org.ow2.asm:asm-debug-all:jar:5.0.1:compile, org.jacoco:org.jacoco.report=org.jacoco:org.jacoco.report:jar:0.7.1.201405082137:compile}
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) propertyName = surefireArgLine
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] surefireArgLine set to -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:resources' with basic configurator -->
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/marvin:@/tmp/.ICE-unix/2413,unix/marvin:/tmp/.ICE-unix/2413, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2243, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, env.PWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_55-b14, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.XDG_VTNR=7, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=fmap, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=fmap, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.LC_ADDRESS=bg_BG.UTF-8, jacoco.it.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.LC_MONETARY=bg_BG.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.TEXTDOMAIN=im-config, env.SELINUX_INIT=YES, java.version=1.7.0_55, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aaP6Weutq0, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, env.SSH_AGENT_PID=2315, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=bg_BG.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=51.0, env.GDMSESSION=ubuntu, user.country=US, env.GNOME_KEYRING_PID=2240, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=fmap, os.version=3.13.0-24-generic, path.separator=:, java.vm.version=24.51-b03, env.LANGUAGE=en_US, env.TEXTDOMAINDIR=/usr/share/locale/, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.LC_TELEPHONE=bg_BG.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64, env.SESSIONTYPE=gnome-session, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.DESKTOP_AUTOSTART_ID=10a97fb3bc46f5c481140135147580247500000024130002, env.LC_MEASUREMENT=bg_BG.UTF-8, env.GDM_LANG=en_US, user.home=/home/fmap, env.JOB=dbus, env.OLDPWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, env.GIO_LAUNCHED_DESKTOP_FILE=/home/fmap/.config/autostart/guake.desktop, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, env.SSH_AGENT_LAUNCHER=upstart, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher verify -e -X, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.UBUNTU_MENUPROXY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/fmap, surefireArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-yGnK8d/ssh, jacoco.ut.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/fmap/.Xauthority, env.SESSION=ubuntu, user.dir=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, env.LC_NUMERIC=bg_BG.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/fmap, failsafeArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.LC_TIME=bg_BG.UTF-8, file.encoding=UTF-8, env.LC_IDENTIFICATION=bg_BG.UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-yGnK8d/gpg:0:1, env.GIO_LAUNCHED_DESKTOP_FILE_PID=2624, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-yGnK8d, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.LC_NAME=bg_BG.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (f) buildDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) classpathElements = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes, /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (f) outputFileName = coverage_example-0.0.1-SNAPSHOT
+[DEBUG]   (f) projectArtifact = com.novarto:coverage_example:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/java]
+[DEBUG] Classpath: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+ /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar]
+[DEBUG] Output directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:testResources' with basic configurator -->
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/marvin:@/tmp/.ICE-unix/2413,unix/marvin:/tmp/.ICE-unix/2413, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2243, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, env.PWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, sun.desktop=gnome, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.7.0_55-b14, env.GTK_IM_MODULE=ibus, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.XDG_VTNR=7, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=fmap, env.QT4_IM_MODULE=xim, env._=/usr/bin/mvn, maven.build.version=Apache Maven 3.0.5, env.USER=fmap, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/, env.LC_ADDRESS=bg_BG.UTF-8, jacoco.it.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games, env.XDG_CURRENT_DESKTOP=Unity, user.language=en, env.LC_MONETARY=bg_BG.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, env.TEXTDOMAIN=im-config, env.SELINUX_INIT=YES, java.version=1.7.0_55, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aaP6Weutq0, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, env.SSH_AGENT_PID=2315, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=bg_BG.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=51.0, env.GDMSESSION=ubuntu, user.country=US, env.GNOME_KEYRING_PID=2240, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=fmap, os.version=3.13.0-24-generic, path.separator=:, java.vm.version=24.51-b03, env.LANGUAGE=en_US, env.TEXTDOMAINDIR=/usr/share/locale/, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.LC_TELEPHONE=bg_BG.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64, env.SESSIONTYPE=gnome-session, env.TERM=xterm, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.DESKTOP_AUTOSTART_ID=10a97fb3bc46f5c481140135147580247500000024130002, env.LC_MEASUREMENT=bg_BG.UTF-8, env.GDM_LANG=en_US, user.home=/home/fmap, env.JOB=dbus, env.OLDPWD=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, java.specification.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, env.GIO_LAUNCHED_DESKTOP_FILE=/home/fmap/.config/autostart/guake.desktop, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, env.SSH_AGENT_LAUNCHER=upstart, java.runtime.name=OpenJDK Runtime Environment, maven.home=/usr/share/maven, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher verify -e -X, env.XDG_SESSION_ID=c2, maven.version=3.0.5, env.UBUNTU_MENUPROXY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/fmap, surefireArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/run/user/1000/keyring-yGnK8d/ssh, jacoco.ut.execution.data.file=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, env.CLUTTER_IM_MODULE=xim, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, env.INSTANCE=, env.XDG_RUNTIME_DIR=/run/user/1000, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/fmap/.Xauthority, env.SESSION=ubuntu, user.dir=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=overlay-scrollbar:unity-gtk-module, line.separator=
+, env.LC_NUMERIC=bg_BG.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/fmap, failsafeArgLine=-javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec, env.LC_TIME=bg_BG.UTF-8, file.encoding=UTF-8, env.LC_IDENTIFICATION=bg_BG.UTF-8, env.GPG_AGENT_INFO=/run/user/1000/keyring-yGnK8d/gpg:0:1, env.GIO_LAUNCHED_DESKTOP_FILE_PID=2624, java.specification.version=1.7, env.GNOME_KEYRING_CONTROL=/run/user/1000/keyring-yGnK8d, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.LC_NAME=bg_BG.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (f) buildDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) classpathElements = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes, /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes, /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar, /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar, /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar, /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (f) outputFileName = coverage_example-0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java]
+[DEBUG] Classpath: [/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+ /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar
+ /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+ /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar
+ /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+ /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar
+ /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar]
+[DEBUG] Output directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty) @ coverage_example <<<
+[INFO] 
+[INFO] --- jetty-maven-plugin:9.1.5.v20140505:run-forked (start-jetty) @ coverage_example ---
+[DEBUG] org.eclipse.jetty:jetty-maven-plugin:jar:9.1.5.v20140505:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0.3:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.eclipse.jetty:jetty-util:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-webapp:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty:jetty-xml:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty:jetty-servlet:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-jaas:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty:jetty-security:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-plus:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-jndi:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-server:jar:9.1.5.v20140505:compile
+[DEBUG]       javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[DEBUG]       org.eclipse.jetty:jetty-http:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty:jetty-io:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-jmx:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-annotations:jar:9.1.5.v20140505:compile
+[DEBUG]       javax.annotation:javax.annotation-api:jar:1.2:compile
+[DEBUG]       org.ow2.asm:asm:jar:4.1:compile
+[DEBUG]       org.ow2.asm:asm-commons:jar:4.1:compile
+[DEBUG]          org.ow2.asm:asm-tree:jar:4.1:compile
+[DEBUG]    org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.1.5.v20140505:compile
+[DEBUG]       javax.websocket:javax.websocket-api:jar:1.0:compile
+[DEBUG]    org.eclipse.jetty.websocket:websocket-server:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty.websocket:websocket-common:jar:9.1.5.v20140505:compile
+[DEBUG]          org.eclipse.jetty.websocket:websocket-api:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty.websocket:websocket-client:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty.websocket:websocket-servlet:jar:9.1.5.v20140505:compile
+[DEBUG]    org.eclipse.jetty:jetty-jsp:jar:9.1.5.v20140505:compile
+[DEBUG]       org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+[DEBUG]       javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
+[DEBUG]       org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile
+[DEBUG]       org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile
+[DEBUG]       org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile
+[DEBUG]       org.glassfish:javax.el:jar:3.0.0:compile
+[DEBUG]       org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile
+[DEBUG]    javax.transaction:javax.transaction-api:jar:1.2:compile
+[DEBUG] Created new class realm plugin>org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-maven-plugin:jar:9.1.5.v20140505
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.1.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.6
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.eclipse.jetty:jetty-util:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-webapp:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-xml:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-servlet:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-jaas:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-security:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-plus:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-jndi:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-server:jar:9.1.5.v20140505
+[DEBUG]   Included: javax.servlet:javax.servlet-api:jar:3.1.0
+[DEBUG]   Included: org.eclipse.jetty:jetty-http:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-io:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-jmx:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-annotations:jar:9.1.5.v20140505
+[DEBUG]   Included: javax.annotation:javax.annotation-api:jar:1.2
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: org.ow2.asm:asm-commons:jar:4.1
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:4.1
+[DEBUG]   Included: org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.1.5.v20140505
+[DEBUG]   Included: javax.websocket:javax.websocket-api:jar:1.0
+[DEBUG]   Included: org.eclipse.jetty.websocket:websocket-server:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.websocket:websocket-common:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.websocket:websocket-api:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.websocket:websocket-client:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.websocket:websocket-servlet:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty:jetty-jsp:jar:9.1.5.v20140505
+[DEBUG]   Included: org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0
+[DEBUG]   Included: javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1
+[DEBUG]   Included: org.glassfish.web:javax.servlet.jsp:jar:2.3.2
+[DEBUG]   Included: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821
+[DEBUG]   Included: org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2
+[DEBUG]   Included: org.glassfish:javax.el:jar:3.0.0
+[DEBUG]   Included: org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121
+[DEBUG]   Included: javax.transaction:javax.transaction-api:jar:1.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.11
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.11
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.11
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.4
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG] Configuring mojo org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked from plugin realm ClassRealm[plugin>org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked' with basic configurator -->
+[DEBUG]   (f) baseAppFirst = true
+[DEBUG]   (f) classesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (f) jvmArgs = -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec
+[DEBUG]   (f) maxStartupLines = 50
+[DEBUG]   (f) persistTempDirectory = false
+[DEBUG]   (f) plugin = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyRunWarMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-war'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyRunWarExplodedMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-exploded'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'HelpMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyRunMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyStopMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:stop'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyStartMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:start'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyRunForkedMojo', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:run-forked'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.eclipse.jetty.maven.plugin.JettyDeployWar', role hint: 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:deploy-war'
+---
+[DEBUG]   (f) pluginArtifacts = [org.eclipse.jetty:jetty-maven-plugin:maven-plugin:9.1.5.v20140505:, org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile, org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile, org.codehaus.plexus:plexus-utils:jar:2.0.6:compile, org.sonatype.aether:aether-util:jar:1.11:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.eclipse.jetty:jetty-util:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-webapp:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-xml:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-servlet:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-jaas:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-security:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-plus:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-jndi:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-server:jar:9.1.5.v20140505:compile, javax.servlet:javax.servlet-api:jar:3.1.0:compile, org.eclipse.jetty:jetty-http:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-io:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-jmx:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-annotations:jar:9.1.5.v20140505:compile, javax.annotation:javax.annotation-api:jar:1.2:compile, org.ow2.asm:asm:jar:4.1:compile, org.ow2.asm:asm-commons:jar:4.1:compile, org.ow2.asm:asm-tree:jar:4.1:compile, org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.1.5.v20140505:compile, org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.1.5.v20140505:compile, javax.websocket:javax.websocket-api:jar:1.0:compile, org.eclipse.jetty.websocket:websocket-server:jar:9.1.5.v20140505:compile, org.eclipse.jetty.websocket:websocket-common:jar:9.1.5.v20140505:compile, org.eclipse.jetty.websocket:websocket-api:jar:9.1.5.v20140505:compile, org.eclipse.jetty.websocket:websocket-client:jar:9.1.5.v20140505:compile, org.eclipse.jetty.websocket:websocket-servlet:jar:9.1.5.v20140505:compile, org.eclipse.jetty:jetty-jsp:jar:9.1.5.v20140505:compile, org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile, javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile, org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile, org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile, org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile, org.glassfish:javax.el:jar:3.0.0:compile, org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile, javax.transaction:javax.transaction-api:jar:1.2:compile]
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) stopKey = stop
+[DEBUG]   (f) stopPort = 8079
+[DEBUG]   (f) target = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target
+[DEBUG]   (f) tempDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/tmp
+[DEBUG]   (f) testClassesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (f) useProvidedScope = false
+[DEBUG]   (f) useTestScope = false
+[DEBUG]   (f) waitForChild = false
+[DEBUG]   (f) webAppSourceDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/webapp
+[DEBUG]   (f) webXml = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/main/webapp/WEB-INF/web.xml
+[DEBUG] -- end configuration --
+[INFO] Configuring Jetty for project: coverage_example
+[DEBUG] [/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java, -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-ut.exec, -cp, /home/fmap/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar:/home/fmap/.m2/repository/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar:/home/fmap/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar:/home/fmap/.m2/repository/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar:/home/fmap/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/fmap/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/fmap/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/fmap/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/fmap/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.1/maven-plugin-tools-api-3.1.jar:/home/fmap/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-util/9.1.5.v20140505/jetty-util-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-webapp/9.1.5.v20140505/jetty-webapp-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-xml/9.1.5.v20140505/jetty-xml-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-servlet/9.1.5.v20140505/jetty-servlet-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-jaas/9.1.5.v20140505/jetty-jaas-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-security/9.1.5.v20140505/jetty-security-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-plus/9.1.5.v20140505/jetty-plus-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-jndi/9.1.5.v20140505/jetty-jndi-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-server/9.1.5.v20140505/jetty-server-9.1.5.v20140505.jar:/home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-http/9.1.5.v20140505/jetty-http-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-io/9.1.5.v20140505/jetty-io-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-jmx/9.1.5.v20140505/jetty-jmx-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-annotations/9.1.5.v20140505/jetty-annotations-9.1.5.v20140505.jar:/home/fmap/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/home/fmap/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar:/home/fmap/.m2/repository/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar:/home/fmap/.m2/repository/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.5.v20140505/javax-websocket-server-impl-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.1.5.v20140505/javax-websocket-client-impl-9.1.5.v20140505.jar:/home/fmap/.m2/repository/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.1.5.v20140505/websocket-server-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.1.5.v20140505/websocket-common-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.1.5.v20140505/websocket-api-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.1.5.v20140505/websocket-client-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.1.5.v20140505/websocket-servlet-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-jsp/9.1.5.v20140505/jetty-jsp-9.1.5.v20140505.jar:/home/fmap/.m2/repository/org/eclipse/jetty/toolchain/jetty-schemas/3.1.M0/jetty-schemas-3.1.M0.jar:/home/fmap/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.jar:/home/fmap/.m2/repository/org/glassfish/web/javax.servlet.jsp/2.3.2/javax.servlet.jsp-2.3.2.jar:/home/fmap/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar:/home/fmap/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.2/javax.servlet.jsp.jstl-1.2.2.jar:/home/fmap/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar:/home/fmap/.m2/repository/org/eclipse/jetty/orbit/org.eclipse.jdt.core/3.8.2.v20130121/org.eclipse.jdt.core-3.8.2.v20130121.jar:/home/fmap/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/fmap/.m2/repository/org/eclipse/jetty/jetty-maven-plugin/9.1.5.v20140505/jetty-maven-plugin-9.1.5.v20140505.jar, org.eclipse.jetty.maven.plugin.Starter, --stop-port, 8079, --stop-key, stop, --props, /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/fork.props, --token, -16RZA73Q0EV8V]
+[INFO] Forked process starting
+[INFO] Forked process started.
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.17:integration-test (default) @ coverage_example ---
+[DEBUG] org.apache.maven.plugins:maven-failsafe-plugin:jar:2.17:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.17:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:test (scope managed from compile)
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.17:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-failsafe-plugin:2.17
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-failsafe-plugin:2.17
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-failsafe-plugin:2.17
+[DEBUG]   Included: org.apache.maven.plugins:maven-failsafe-plugin:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.17
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.17
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-failsafe-plugin:2.17:integration-test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-failsafe-plugin:2.17, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-failsafe-plugin:2.17:integration-test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) argLine = -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec
+[DEBUG]   (s) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) includes = [**/systest/**]
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =        id: local
+      url: file:///home/fmap/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-failsafe-plugin=org.apache.maven.plugins:maven-failsafe-plugin:maven-plugin:2.17:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.17:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.17:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.failsafe.IntegrationTestMojo', role hint: 'org.apache.maven.plugins:maven-failsafe-plugin:2.17:integration-test'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.failsafe.VerifyMojo', role hint: 'org.apache.maven.plugins:maven-failsafe-plugin:2.17:verify'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.failsafe.HelpMojo', role hint: 'org.apache.maven.plugins:maven-failsafe-plugin:2.17:help'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {junit:junit=junit:junit:jar:4.11:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test, javax.servlet:javax.servlet-api=javax.servlet:javax.servlet-api:jar:3.0.1:provided, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.3.1:test, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.1.3:test, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.6:test, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.3.1:test, org.apache.httpcomponents:fluent-hc=org.apache.httpcomponents:fluent-hc:jar:4.3.1:test}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [       id: central
+      url: http://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) summaryFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports/failsafe-summary.xml
+[DEBUG]   (s) testClassesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (s) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@69070ffc
+[DEBUG] -- end configuration --
+[INFO] Failsafe report directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports
+[DEBUG] Setting system property [user.dir]=[/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example]
+[DEBUG] Setting system property [localRepository]=[/home/fmap/.m2/repository]
+[DEBUG] Setting system property [basedir]=[/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example]
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.17:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.17:compile (selected for compile)
+[DEBUG] Adding to failsafe booter test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar Scope: compile
+[DEBUG] Adding to failsafe booter test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar Scope: compile
+[DEBUG] Using JVM: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit4:jar:2.17:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.17:test (selected for test)
+[DEBUG] Adding to failsafe test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar Scope: test
+[DEBUG] Adding to failsafe test classpath: /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar Scope: test
+[DEBUG] test classpath:  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes  /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar  /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar  /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar  /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar
+[DEBUG] provider classpath:  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar  javax.servlet-api-3.0.1.jar  httpclient-4.3.1.jar  commons-logging-1.1.3.jar  commons-codec-1.6.jar  httpcore-4.3.1.jar  fluent-hc-4.3.1.jar
+[DEBUG] provider(compact) classpath:  surefire-junit4-2.17.jar  surefire-api-2.17.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+[DEBUG] boot classpath:  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes  /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/classes  /home/fmap/.m2/repository/junit/junit/4.11/junit-4.11.jar  /home/fmap/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /home/fmap/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar  /home/fmap/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar  /home/fmap/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar  /home/fmap/.m2/repository/org/apache/httpcomponents/fluent-hc/4.3.1/fluent-hc-4.3.1.jar  /home/fmap/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.17/surefire-junit4-2.17.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-2.17.jar  surefire-api-2.17.jar  test-classes  classes  junit-4.11.jar  hamcrest-core-1.3.jar  javax.servlet-api-3.0.1.jar  httpclient-4.3.1.jar  commons-logging-1.1.3.jar  commons-codec-1.6.jar  httpcore-4.3.1.jar  fluent-hc-4.3.1.jar  surefire-junit4-2.17.jar
+Forking command line: /bin/sh -c cd /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example && /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -javaagent:/home/fmap/.m2/repository/org/jacoco/org.jacoco.agent/0.7.1.201405082137/org.jacoco.agent-0.7.1.201405082137-runtime.jar=destfile=/home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec -jar /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefirebooter2441548898554809427.jar /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefire6938567667725733657tmp /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/surefire/surefire_02675684985387970585tmp
+Running com.novarto.coverage_example.systest.ServletTest
+foo
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.335 sec - in com.novarto.coverage_example.systest.ServletTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.1.201405082137:report (post-integration-test) @ coverage_example ---
+[DEBUG] Configuring mojo org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report from plugin realm ClassRealm[plugin>org.jacoco:jacoco-maven-plugin:0.7.1.201405082137, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.jacoco:jacoco-maven-plugin:0.7.1.201405082137:report' with basic configurator -->
+[DEBUG]   (f) dataFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/coverage-reports/jacoco-it.exec
+[DEBUG]   (f) outputDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/site/jacoco-it
+[DEBUG]   (f) outputEncoding = UTF-8
+[DEBUG]   (f) project = MavenProject: com.novarto:coverage_example:0.0.1-SNAPSHOT @ /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) sourceEncoding = UTF-8
+[DEBUG] -- end configuration --
+[INFO] Analyzed bundle 'coverage_example' with 2 classes
+[INFO] 
+[INFO] --- jetty-maven-plugin:9.1.5.v20140505:stop (stop-jetty) @ coverage_example ---
+[DEBUG] Configuring mojo org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:stop from plugin realm ClassRealm[plugin>org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.eclipse.jetty:jetty-maven-plugin:9.1.5.v20140505:stop' with basic configurator -->
+[DEBUG]   (s) stopKey = stop
+[DEBUG]   (s) stopPort = 8079
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.17:verify (default) @ coverage_example ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-failsafe-plugin:2.17:verify from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-failsafe-plugin:2.17, parent: sun.misc.Launcher$AppClassLoader@1978b0f9]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-failsafe-plugin:2.17:verify' with basic configurator -->
+[DEBUG]   (s) basedir = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example
+[DEBUG]   (s) reportsDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) summaryFile = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports/failsafe-summary.xml
+[DEBUG]   (s) testClassesDirectory = /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG] -- end configuration --
+[INFO] Failsafe report directory: /home/fmap/work/eclipse_ws/nemo_cofig/coverage_example/target/failsafe-reports
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.640s
+[INFO] Finished at: Thu May 29 14:22:28 EEST 2014
+[INFO] Final Memory: 17M/299M
+[INFO] ------------------------------------------------------------------------
